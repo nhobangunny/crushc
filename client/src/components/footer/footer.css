@@ -1,0 +1,154 @@
+footer {
+  background-color: #023646;
+  color: white;
+  width: 100%;
+  display: block;
+}
+.clear-after:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.centered-semiwide {
+  display: block;
+  width: calc(100% - 10em);
+  max-width: 96em;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100%;
+}
+
+footer .col:nth-child(1) {
+  width: 17.5em;
+}
+
+footer .col {
+  width: 20em;
+}
+
+.t-strong {
+  font-size: 100%;
+  line-height: 1.25em;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.076em;
+}
+
+.hide-mobile {
+  display: block;
+}
+
+.float {
+  float: left;
+}
+.t-ssmall {
+  font-size: 81.25%;
+  line-height: 1.4615em;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 0.09em;
+}
+footer .col a {
+  display: block;
+}
+footer a {
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+footer .social-sharing {
+  position: absolute;
+  float: none;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.float.right {
+  float: right;
+}
+
+.social-sharing.white a.linkedin {
+  background-image: url(./icon/picto_linkedin_white.svg);
+}
+.social-sharing.white a.youtube {
+  background-image: url(icon/picto_youtube_white.svg);
+}
+.social-sharing.white a.facebook {
+  background-image: url(./icon/picto_facebook_white.svg);
+}
+.social-sharing a {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.social-sharing a + a {
+  margin-left: 5.5em;
+}
+
+footer .scrolltop-container {
+  position: absolute;
+  z-index: 80;
+  bottom: 100%;
+  left: 100%;
+  bottom: calc(100% + 16em);
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  min-height: 10em;
+  cursor: pointer;
+}
+.centered-semiwide {
+  display: block;
+  width: calc(100% - 10em);
+  max-width: 96em;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100%;
+}
+footer .row {
+  padding: 2em 0;
+}
+
+.t-pcolor-1 {
+  color: #023646;
+}
+.a-small {
+  display: inline-block;
+  font-size: 81.25%;
+  text-decoration: underline;
+  line-height: 1.4615em;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 0.09em;
+}
+
+footer .scrolltop-container .scrolltop {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 50%;
+  margin-left: -1.25em;
+  top: 100%;
+  margin-top: 3em;
+  height: 1em;
+  width: 2em;
+  background-image: url(icon/scrolltop_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+footer .social-sharing {
+  position: absolute;
+  float: none;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
